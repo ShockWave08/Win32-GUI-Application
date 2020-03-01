@@ -1,0 +1,18 @@
+// Author: Lee D. Daniel
+// Course: ELET3260 - Adv Micoprocessors and Systems
+// Date: 13 - 02 - 2020
+// Program Name: JimmyDaLou
+
+#include "LabTwo.h"
+
+IDA_SimpleMENU MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit", IDA_MENU_EXIT
+    END
+    
+    MENUITEM "A&bout", IDA_MENU_ABOUT
+END
+
+
